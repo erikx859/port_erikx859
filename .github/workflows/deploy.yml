@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: checkout do repositorio
-        uses: actions/checkou@v4
+        uses: actions/checkout@v4
 
       - name: Configurar Github pages
         uses: actions/configure-pages@v5
