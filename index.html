@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Seu Nome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        header {
+            background: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        footer {
+            background: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .project-card {
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<header class="text-center">
+    <div class="container">
+        <h1>Erik Almeida</h1>
+        <p>Desenvolvedor de Sistemas | Apaixonado por Tecnologia e Teologia</p>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="sobre" class="section text-center">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Com formação na area da teologia biblica cristã, alem de ser um desenvolvedor de sistemas com experiência em criar aplicações web dinâmicas e responsivas. Minha paixão por tecnologia me leva a buscar constantemente novos desafios e aprender novas ferramentas.</p>
+    </div>
+</section>
+
+<section id="projetos" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center">Projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://flowhub.marcmoc.com/imagens/logo.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1: Sistema de Gerenciamento de Tarefas</h5>
+                        <p class="card-text">Um aplicativo web que permite aos usuários gerenciar suas tarefas diárias. Utilizei HTML, CSS e JavaScript.</p>
+                        <a href="link-do-projeto-1" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="blog.png" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2: Blog Pessoal</h5>
+                        <p class="card-text">Um blog onde compartilho minhas experiências e aprendizados em programação e teologia. Desenvolvido com React e Node.js.</p>
+                        <a href="link-do-projeto-2" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="catraca.png" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3: Contador Pessoas</h5>
+                        <p class="card-text">Um sistema para gerenciar a quantidade de pessoas em um evento, utilizando catraca da marca TOPData. Utilizei JAVA e MySQL para o backend.</p>
+                        <a href="link-do-projeto-3" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="habilidades" class="section text-center">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <ul class="list-unstyled">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>PHP, MySQL</li>
+            <li>Git e GitHub</li>
+            <li>Trabalho em equipe e comunicação</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contato" class="section bg-light">
+    <div class="container text-center">
+        <h2>Contato</h2>
+        <p>Email: seuemail@example.com</p>
+        <p>LinkedIn: <a href="link-do-linkedin" target="_blank">Seu LinkedIn</a></p>
+        <p>GitHub: <a href="link-do-github" target="_blank">Seu GitHub</a></p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; <span id="current-year"></span> Erik Almeida. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Script para obter o ano atual
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
