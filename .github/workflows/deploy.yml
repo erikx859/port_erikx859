@@ -26,5 +26,5 @@ jobs:
         with:
           path: .
 
-      - name:  Pubilicar no GitHub pages
+      - name:  Publicar no GitHub pages
         uses: actions/deploy-pages@v4
