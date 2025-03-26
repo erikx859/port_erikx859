@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reik - Teologia | Sistemas | Contato</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset_css.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script src="../js/contato.js"></script>
+</head>
+<body>
+    <div class="topo">
+        <div class="logo">
+
+        </div><!--fim logo-->
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="artigos.html">Artigos & Estudos</a></li>
+                    <li><a href="sobre.html">Sobre o Autor</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+
+            </div><!--fim menu-->
+
+    </div><!--fim topo-->
+    <div id="fundo_contato">
+        <div class="formulario">
+            <h1>Formulário</h1>
+            <br>
+            <br>
+            <form>
+                <!--<label for="nome">Nome:</label>-->
+                <input type="text" id="nome" name="nome" required placeholder="Nome">
+                <br>
+                <!--<label for="email">Email:</label>-->
+                <input type="email" id="email" name="email" required placeholder="E-mail">
+                <br>
+                <!--<label for="mensagem">Mensagem:</label>-->
+                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Mensagem"></textarea>
+        
+                <button type="button" onclick="enviarDados()">Enviar</button>
+            </form> 
+        </div><!--fim formulario-->
+
+        <div class="rodape">
+            <h1>Desenvolvido por Erik Almeida</h1>
+        </div><!-- fim rodape-->
+
+
+    </div><!--fim fundo contato-->
+
+
+    
+</body>
+</html>

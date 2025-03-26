@@ -1,0 +1,398 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url(../imagens/fundo.jpg);
+    font-family: "Century Ghotic";
+    line-height: 20px;
+    font-size: 16px;
+    color: #706e6e;
+}
+.topo {
+    background: url(../imagens/barra_topo.png);
+    width: 940px;
+    height: 170px;
+    border-bottom: 10px solid #090;
+    margin: auto;
+}
+.logo{
+    float: left;
+    background: url(../imagens/logo_0.png);
+    width: 140px;
+    height: 140px;
+    position: relative;
+    margin: 5px 0 0 15px;
+}
+.topo .menu ul{
+    position:relative;
+    float: right;
+    margin: 150px 160px 0 0;
+}
+.topo .menu ul li {
+    display: inline;
+    padding: 30px 0 0 60px;
+    float: none;
+}
+.topo .menu ul li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+.topo .menu ul li a:hover{
+    text-decoration: underline;
+    color: rgb(48, 52, 48);
+}
+.topo .menu ul li .active{
+    color: rgb(17, 23, 55);
+    font-weight: bold;
+}
+/* inicio do fundo inicial */
+#fundo_inicial{
+    width: 940px;
+    height: 820px;
+    margin: 10px auto 20px auto;
+    background-color: #FFF;
+}
+#fundo_inicial .contato{
+    width: 200px;
+    height: 100px;
+    border: 1px #0abc28;
+    padding: 200px;
+}
+#fundo_inicial .box_img1{
+    background: url(../imagens/logo_0.png);
+    width: 450px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+#fundo_inicial .box_txt1 .titulo_boxtxt{
+    font-size: 24px;
+    color: #090;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+#fundo_inicial .box_txt1 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #090;
+    margin-top: 10px;
+}
+#fundo_inicial .box_txt1{
+    width: 420px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+#fundo_inicial .box_txt1 a{
+    color: #0C0;
+    text-decoration: none;
+}
+#fundo_inicial .box_txt1 a:hover{
+    text-decoration: underline;
+    color: #0F0;
+}
+#fundo_inicial .regua{
+    width: 900px;
+    margin: auto;
+    border: 1px solid #CCC;
+    clear: both;  
+}
+#fundo_inicial .grupo_fotos1{
+    width: 200px;
+    height: 133px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background: url(../imagens/download\ \(1\).jpeg);
+    float: left;
+    margin: 15px 0 0 30px;
+    border-radius: 10%;
+}
+#fundo_inicial .grupo_fotos2{
+    width: 200px;
+    height: 133px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background: url(../imagens/download\ \(2\).jpeg);
+    float: right;
+    margin: 15px 30px 0 0;
+    border-radius: 10%;
+}
+#fundo_inicial .grupo_fotos3{
+    width: 200px;
+    height: 133px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: center;
+    background: url(../imagens/download\ \(3\).jpeg);
+    margin: 15px 0 0 370px;
+    border-radius: 10%;
+}
+#fundo_inicial .box_txt2{
+    width: 900px;
+    height: 150px;
+    position: relative;
+    margin: 80px 0 0 0;
+}
+#fundo_inicial .box_txt2 .titulo_boxtxt{
+    font-size: 24px;
+    color: #090;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#fundo_inicial .box_txt2 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #090;
+    margin-top: 50px;
+    position: relative;
+}
+#fundo_inicial .box_txt2{
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+#fundo_inicial .box_txt2 a{
+    color: #0C0;
+    text-decoration: none;
+    margin: 15px;
+}
+#fundo_inicial .box_txt2 a:hover{
+    text-decoration: underline;
+    color: #0F0;
+}
+.rodape{
+    width: 940px;
+    height: 120px;
+    position: relative;
+    bottom: 0;
+    margin: 250px 0 0 0;
+    background-image: linear-gradient(to bottom, rgb(172, 241, 172), #090);
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+}
+/* fim da pagina inicial*/
+/*inicio pagina artigo*/
+#fundo_artigos{
+    width: 940px;
+    height: 800px;
+    margin: 10px auto 20px auto;
+    background-color: #FFF;
+}
+.box_txt3 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+#fundo_artigos .box_txt3 h1{
+    font-size: 24px;
+    color: #090;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fundo_artigos .box_txt3 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #090;
+    margin-top: 10px;
+}
+.box_imagens{
+    position: relative;
+    width: 900px;
+    height: 350px;
+    margin: 20px auto auto 20px;
+    float: left;
+}
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.tabela .th1{
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center; 
+}
+.tabela .th2{
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center; 
+}
+.tabela .th3{
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center; 
+}
+.tabela td{
+    clear: both;
+    padding-top: 1px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center; 
+    align-items: center;
+}
+  
+td img {
+    max-width: 100%;
+    height: 100px;
+}
+.shadowbox {
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+/* fim da pagina artigo*/
+/*inicio pagina contato*/
+#fundo_contato{
+    width: 940px;
+    height: 550px;
+    position: relative;
+    margin: 10px auto 20px auto;
+    background-color: #FFF;
+}
+.formulario{
+    width: 450px;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+#fundo_contato .formulario h1{
+    font-size: 24px;
+    color: #090;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #80a112;
+    color: rgb(167, 225, 215);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.rodape_artigo{
+    width: 940px;
+    height: 120px;
+    position: absolute;
+    margin: 800px 0 0 0;
+    background-image: linear-gradient(to bottom, rgb(172, 241, 172), #090);
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape_artigo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+}
+/* fim da pagina contato*/
+/*inicio pagina sobre*/
+#fundo_sobre{
+    width: 940px;
+    height: 700px;
+    margin: 10px auto 20px auto;
+    background-color: #FFF;
+}
+.box_txt4 {
+    width: 900px;
+    height: 550px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.box_txt4 h1{
+    margin: 40px;
+}
+.box_txt4 img {
+    margin: 40;
+    width: 20%;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+section {
+    margin: 20px;
+}
+.destaque {
+    color: #333;
+    font-weight: bold;
+}
+.rodape_sobre{
+    width: 940px;
+    height: 120px;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(172, 241, 172), #090);
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape_sobre h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
